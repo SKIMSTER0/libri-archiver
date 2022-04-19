@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_browse_web"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="@string/menuOptionBrowseLibrivox" />
+
+        <item
+            android:id="@+id/nav_browse_local"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="@string/menuOptionBrowseLocal" />
+
+        <item
+            android:id="@+id/nav_filter_settings"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/menuOptionFilterSettings" />
+
+        <item
+            android:id="@+id/nav_export_database"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="@string/menuOptionExport" />
+
+        <item
+            android:id="@+id/nav_clear_local"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/menuClearLocal" />
+    </group>
+</menu>

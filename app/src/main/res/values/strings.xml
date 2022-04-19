@@ -1,0 +1,37 @@
+<resources>
+    <!-- Meta -->
+    <string name="app_name">Project - Stephen Kim 000801165</string>
+    <string name="email">stephenkim1@mohawkcollege.ca</string>
+    <string name="school">Mohawk College 2021</string>
+    <string name="applicationName">LibriArchive</string>
+
+    <!-- Filter -->
+    <string name="totalTimeHelper">Select maximum time in seconds</string>
+    <string name="yearHelper">Select latest copyright year</string>
+    <string name="languageHelper">Select Language</string>
+    <string name="saveFilterButton">Save Filter Settings</string>
+    <string name="switchArchivedText">Show previously archived selections</string>
+    <string-array name="filterLanguages">
+        <item>English</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>Dutch</item>
+        <item>Portuguese</item>
+    </string-array>
+
+    <!-- Nav -->
+    <string name="menuOptionBrowseLibrivox">Browse Librivox Web</string>
+    <string name="menuOptionBrowseLocal">Browse Local Archive</string>
+    <string name="menuOptionFilterSettings">Filter Settings</string>
+    <string name="menuOptionExport">Export Database</string>
+    <string name="menuClearLocal">Clear Database</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- Export data screen -->
+    <string name="dataPlaceholder">No data to export!</string>
+
+    <!-- Web Browse -->
+    <string name="searchWebHint">Search Audiobooks from Librivox</string>
+    <string name="searchWebQueryTitle">https://librivox.org/api/feed/audiobooks/title/%%5E%1$s?format=json</string>
+</resources>
